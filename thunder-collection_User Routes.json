@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "User Routes",
+    "dateExported": "2023-10-25T15:51:27.859Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ae5cd0a2-c2ef-45a8-8218-a578cbb6a297",
+            "colId": "dd032715-7c8b-4659-9084-581f8155a095",
+            "containerId": "",
+            "name": "http://127.0.0.1:8000/user/create-user",
+            "url": "http://127.0.0.1:8000/user/create-user",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-25T11:28:13.456Z",
+            "modified": "2023-10-25T11:28:13.456Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"user_id\" : \"1234\",\r\n  \"username\" : \"abdullah\",\r\n  \"password\" : \"1234\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
